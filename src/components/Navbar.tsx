@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X } from 'lucide-react';
 import ThemeSwitcher from './ThemeSwitcher';
@@ -10,14 +10,14 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
 
-  const navItems = [
+  const navItems = useMemo(() => [
     { name: 'Home', href: '#home' },
     { name: 'Services', href: '#services' },
     { name: 'Experience', href: '#experience' },
     { name: 'Work', href: '#work' },
     { name: 'Blog', href: '#blog' },
     { name: 'Contact', href: '#contact' },
-  ];
+  ], []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,7 +41,7 @@ export default function Navbar() {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [navItems]);
 
   const scrollToSection = (href: string) => {
     setIsOpen(false);
