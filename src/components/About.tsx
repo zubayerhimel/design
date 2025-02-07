@@ -68,7 +68,7 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.3 }}
           >
             <p className="text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed">
-              Hello! I'm Rifat Ashfiha Khan, a passionate graphic designer and digital artist based in Dhaka. 
+              Hello! I&apos;m Rifat Ashfiha Khan, a passionate graphic designer and digital artist based in Dhaka. 
               With over 2 years of experience in the creative industry, I specialize in creating 
               meaningful brand experiences and visual stories that connect with people.
             </p>
