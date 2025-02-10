@@ -24,11 +24,11 @@ export default function Hero() {
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
         <motion.div className="space-y-6" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
           <motion.span
-            className="text-sm uppercase tracking-wider text-rose-400 dark:text-rose-300 font-medium"
+            className="text-sm uppercase tracking-[.3rem] text-rose-400 dark:text-rose-300 font-medium"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}>
-            Creative Designer & Illustrator
+            Creative Designer
           </motion.span>
           <motion.h1
             className={cn("text-5xl md:text-7xl font-bold tracking-tight", bonaNova.className)}

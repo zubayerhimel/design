@@ -39,31 +39,6 @@ export default function Work() {
         category: "Book Cover",
         image: "/images/cover/6.jpg",
       },
-      {
-        title: "Book Cover 7",
-        category: "Book Cover",
-        image: "/images/cover/7.jpg",
-      },
-      {
-        title: "Book Cover 8",
-        category: "Book Cover",
-        image: "/images/cover/8.jpg",
-      },
-      {
-        title: "Book Cover 9",
-        category: "Book Cover",
-        image: "/images/cover/9.jpg",
-      },
-      {
-        title: "Book Cover 10",
-        category: "Book Cover",
-        image: "/images/cover/10.jpg",
-      },
-      {
-        title: "Book Cover 11",
-        category: "Book Cover",
-        image: "/images/cover/11.jpg",
-      },
     ],
 
     socialMedia: [
@@ -96,21 +71,6 @@ export default function Work() {
         title: "Social Post 6",
         category: "Social Media",
         image: "/images/social-media/6.jpg",
-      },
-      {
-        title: "Social Post 7",
-        category: "Social Media",
-        image: "/images/social-media/7.jpg",
-      },
-      {
-        title: "Social Post 8",
-        category: "Social Media",
-        image: "/images/social-media/8.jpg",
-      },
-      {
-        title: "Social Post 9",
-        category: "Social Media",
-        image: "/images/social-media/9.jpg",
       },
     ],
 

@@ -8,39 +8,43 @@ import { cn } from "@/lib/utils";
 export default function Experience() {
   const experiences = [
     {
-      company: "Creative Studio X",
-      position: "Senior Graphic Designer",
-      startDate: "Jan 2022",
+      company: "Retouch 24",
+      position: "Graphic Designer",
+      startDate: "Apr 2023",
       endDate: "Present",
+
       achievements: [
-        "Led the rebranding of 3 major clients, increasing their brand recognition by 40%",
-        "Managed a team of 4 designers and developed design systems for consistency",
+        "Led the rebranding of 3 major clients, increasing their brand recognition",
+        "Contributing creative ideas and executing them with precision",
         "Created over 200 social media designs with 85% client satisfaction rate",
-        "Implemented new design workflow that reduced revision cycles by 30%",
+        "Assist in the creation of brand identities, including logo design, typography selection, and color palette development",
+        "Produce compelling marketing materials such as posters, flyers, and digital banners, ensuring alignment with client branding guidelines.",
+        "Support the design and layout of print materials, including brochures, business cards, and packaging, while maintaining attention to detail and consistency",
       ],
     },
     {
-      company: "Digital Agency Y",
-      position: "UI/UX Designer",
-      startDate: "Mar 2020",
-      endDate: "Dec 2021",
+      company: "Fronture Technologies",
+      position: "Creative Designer - Intern",
+      startDate: "Mar 2023",
+      endDate: "Dec 2022",
+
       achievements: [
-        "Designed user interfaces for 15+ web and mobile applications",
-        "Increased user engagement by 45% through improved UX design",
-        "Conducted user research and usability testing for key projects",
-        "Collaborated with development team to ensure pixel-perfect implementation",
+        "Designed user interfaces for web and mobile applications",
+        "Supported senior designers in various stages of the design process, from concept development to final execution.",
+        "Assisted in the creation of visual assets for social media campaigns, including graphics, illustrations, and animations",
+        "Provided administrative support, including file organization, asset management, and project coordination.",
       ],
     },
     {
-      company: "Tech Startup Z",
-      position: "Visual Designer",
-      startDate: "Jun 2018",
-      endDate: "Feb 2020",
+      company: "Bangladesh Bank",
+      position: "Development & Design Intern",
+      startDate: "Apr 2022",
+      endDate: "Jun 2022",
+
       achievements: [
-        "Created brand identity and design guidelines from scratch",
-        "Designed marketing materials that helped secure $2M in funding",
-        "Developed responsive website designs for 10+ clients",
-        "Established design process documentation used company-wide",
+        "Assisted in the development of a new mobile banking app",
+        "Creating a schedule for banking training & Design a website in Bangladesh Bank",
+        "Developed responsive website design",
       ],
     },
   ];
