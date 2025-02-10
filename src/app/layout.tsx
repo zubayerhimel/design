@@ -1,32 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { bonaNova, geistMono, geistSans } from "@/lib/font";
 
 export const metadata: Metadata = {
   title: "Rifat Ashfiha Khan | Graphic Designer",
   description: "Creative graphic designer specializing in brand identity, UI/UX, and digital experiences. Based in Dhaka, Bangladesh.",
-  keywords: [
-    "graphic designer",
-    "UI/UX designer",
-    "brand identity",
-    "visual designer",
-    "digital artist",
-    "Dhaka",
-    "Bangladesh",
-    "creative portfolio",
-    "brand design",
-    "motion graphics"
-  ],
+  keywords: ["graphic designer", "UI/UX designer", "brand identity", "visual designer", "digital artist", "Dhaka", "Bangladesh", "creative portfolio", "brand design", "motion graphics"],
   authors: [{ name: "Rifat Ashfiha Khan" }],
   creator: "Rifat Ashfiha Khan",
   openGraph: {
@@ -67,11 +46,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${bonaNova.variable} antialiased`}>{children}</body>
     </html>
   );
 }
