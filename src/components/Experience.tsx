@@ -25,8 +25,8 @@ export default function Experience() {
     {
       company: "Fronture Technologies",
       position: "Creative Designer - Intern",
-      startDate: "Mar 2023",
-      endDate: "Dec 2022",
+      startDate: "Feb 2023",
+      endDate: "Mar 2023",
 
       achievements: [
         "Designed user interfaces for web and mobile applications",
